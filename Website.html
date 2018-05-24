@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <!-- REFERENCE TO STYLE SHEET-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body background="bg.jpg">
+        
+        <h1>Welcome to the Website</h1>
+        <h2>You can upload your stuff here</h2>
+        
+        <div>
+            <h3>You can upload your files below<br></h3>
+            
+        <!--  THIS IS WHERE YOU ONLY USE JPEG FORMAT
+        <form action="UploadPage.php"
+                  method="post"
+                  enctype="multipart/form-data">
+                      
+                <input type="hidden"
+                       name="MAX_FILE_SIZE"
+                       value="10000000" />
+                <h4> Your Jpeg comes here </h4>
+               
+                <input type="file" name="myfile"/>
+                <input type="submit" value="send" /> 
+            </form> -->
+        </div>
+        
+        <div>
+                
+           <!-- THIS IS WHERE YOU CAN DO MORE FORMATS-->
+            
+            <form action="UploadPage2.php"
+                  method="post"
+                  enctype="multipart/form-data">
+                
+         
+                <h5>Supported formats: txt</h5>
+                
+                
+                <input type="file" name="myfile"/>
+                <input type="submit" value="send" />
+            </form>
+            
+            
+            
+        </div>
+        
+        
+   
+    </body>
+</html>

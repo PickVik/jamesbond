@@ -28,13 +28,13 @@
             <tr>
 
                 <th>Channel</th>
-                <th colspan="2">9 am</th>
-                <th colspan="2">10 am</th>
-                <th colspan="2">11 am</th>
-                <th colspan="2">12 pm</th>
-                <th colspan="2">1 pm</th>
-                <th colspan="2">2 pm</th>
-                <th colspan="2">3 pm</th>
+                <th colspan="2">9</th>
+                <th colspan="2">10</th>
+                <th colspan="2">11</th>
+                <th colspan="2">12</th>
+                <th colspan="2">1</th>
+                <th colspan="2">2</th>
+                <th colspan="2">3</th>
             </tr>
 
             <tr>
