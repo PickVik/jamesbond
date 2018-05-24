@@ -1,0 +1,31 @@
+body, html {
+   height: 100%;
+   background-image:url("computer.jpg"); 
+   background-repeat: no-repeat;
+   background-size: 900px 900px;
+   background-position: center;
+}  
+
+
+   h1 {
+    margin-top: auto;   
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+h2 {
+    margin: auto; 
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+ form {
+     color: black;
+     text-align: center;
+ }
+     
